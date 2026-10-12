@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', Arial, sans-serif;
+  background-color: #f0f2f5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 通用页面卡片 */
+.page-card {
+  background: #fff;
+  border-radius: 6px;
+  padding: 16px;
+  min-height: 100%;
+}
+
+/* 列表筛选栏 */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+/* 表格分页 */
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
